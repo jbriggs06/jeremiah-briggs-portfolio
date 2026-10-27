@@ -1,0 +1,29 @@
+/* Small portfolio-specific refinements; the original vCard stylesheet remains intact. */
+.profile-initials {
+  display: grid;
+  place-items: center;
+  width: 80px;
+  height: 80px;
+  border-radius: 18px;
+  background: var(--eerie-black-2, #272727);
+  color: var(--orange-yellow-crayola, #f5c76c);
+  font-size: 2rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+}
+.project-details { min-width: 0; }
+.project-details .timeline-text,
+.project-item .timeline-text { overflow-wrap: anywhere; margin-top: 0.5rem; }
+.contact-link { overflow-wrap: anywhere; }
+button:focus-visible, a:focus-visible {
+  outline: 3px solid var(--orange-yellow-crayola, #f5c76c);
+  outline-offset: 3px;
+}
+@media (max-width: 580px) {
+  .profile-initials { width: 80px; height: 80px; }
+  .skills-list, .project-list { min-width: 0; }
+  .timeline-text { overflow-wrap: anywhere; }
+}
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { scroll-behavior: auto !important; transition-duration: 0.01ms !important; }
+}
