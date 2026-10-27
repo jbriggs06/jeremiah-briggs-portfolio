@@ -35,6 +35,16 @@ Windows:
 git clone https://github.com/codewithsadee/vcard-personal-portfolio.git
 ```
 
+## Acceptance Criteria
+
+| # | Acceptance Criterion | How I Will Verify It |
+|---|---|---|
+| 1 | The landing page displays my name, professional title, and a concise professional summary. | Open the homepage and verify that the information is accurate and visible. |
+| 2 | The portfolio includes my education, professional experience, and technical skills without duplicated information. | Review the Resume and Skills sections against `content-notes.md`. |
+| 3 | The Projects section displays ClassTestLinker, SpecMine Abandonment Analysis, AIDev Mining Challenge, and Legal Incident Report Extraction, each with a title and description. | Navigate to Projects and verify all four entries and their descriptions. |
+| 4 | All navigation links work correctly, and the website remains readable and functional on desktop and mobile screens. | Test each navigation link and use browser developer tools to simulate a mobile viewport. |
+| 5 | The published website contains no original template placeholders or private information, and it supports accessible navigation. | Inspect the content, images, keyboard navigation, and browser console for errors. |
+
 ## Contact
 
 If you want to contact me you can reach me at [Twitter](https://www.x.com/codewithsadee_).
