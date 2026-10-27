@@ -12,7 +12,7 @@ Branch: feature/portfolio-personalization
 
 Date: October 27, 2026
 
-AI Assistant Used: [Name of actual AI assistant]
+AI Assistant Used: Gemini
 
 ### Objective
 
