@@ -1,54 +1,46 @@
-# vCard - Personal portfolio
+# Jeremiah Briggs | Software Engineering Portfolio
 
-![GitHub repo size](https://img.shields.io/github/repo-size/codewithsadee/vcard-personal-portfolio)
-![GitHub stars](https://img.shields.io/github/stars/codewithsadee/vcard-personal-portfolio?style=social)
-![GitHub forks](https://img.shields.io/github/forks/codewithsadee/vcard-personal-portfolio?style=social)
-[![Twitter Follow](https://img.shields.io/twitter/follow/codewithsadee_?style=social)](https://twitter.com/intent/follow?screen_name=codewithsadee_)
-[![YouTube Video Views](https://img.shields.io/youtube/views/SoxmIlgf2zM?style=social)](https://youtu.be/SoxmIlgf2zM)
+A responsive, static portfolio presenting my background in software engineering, database systems, software testing, machine learning, and AI-assisted development.
 
-vCard is a fully responsive personal portfolio website, responsive for all devices, built using HTML, CSS, and JavaScript.
+## Featured Projects
 
-## Demo
+- **ClassTestLinker:** Python-based static analysis linking Java classes to human-written and LLM-generated tests, with testing metrics and heuristic test-smell indicators.
+- **SpecMine Abandonment Analysis:** Mining repository and specification data to investigate abandoned or incomplete software specifications. [Research repository](https://github.com/mhage82/specmine-abandonment-analysis).
+- **AIDev Mining Challenge:** Data analysis and predictive modeling of pull-request outcomes and review effort.
+- **Legal Incident Report Extraction:** Comparison of Meaning-Typed Programming and conventional SDK-based structured extraction.
 
-![vCard Desktop Demo](./website-demo-image/desktop.png "Desktop Demo")
-![vCard Mobile Demo](./website-demo-image/mobile.png "Mobile Demo")
+## Technology
 
-## Prerequisites
+HTML, CSS, and JavaScript, using the original vCard responsive template. This website is static and does not collect submissions or use a backend.
 
-Before you begin, ensure you have met the following requirements:
+## Running Locally
 
-* [Git](https://git-scm.com/downloads "Download Git") must be installed on your operating system.
+Clone this repository, then open `index.html` in a browser. Alternatively, run a local static server such as `python -m http.server 8000` and open `http://localhost:8000`.
 
-## Installing vCard
+## Test Checklist
 
-To install **vCard**, follow these steps:
-
-Linux and macOS:
-
-```bash
-sudo git clone https://github.com/codewithsadee/vcard-personal-portfolio.git
-```
-
-Windows:
-
-```bash
-git clone https://github.com/codewithsadee/vcard-personal-portfolio.git
-```
+- Confirm About, Resume, and Portfolio navigation works with mouse and keyboard.
+- Confirm all four project descriptions and education/experience details match `content-notes.md`.
+- Test portfolio filters and profile links.
+- Check 375px, 768px, and desktop viewports for overflow and legibility.
+- Verify images or icons have appropriate accessible names or are decorative.
+- Check browser console for unexpected errors and examine repository for secrets or template placeholders.
+- Repeat checks using the published GitHub Pages URL after merging.
 
 ## Acceptance Criteria
 
-| # | Acceptance Criterion | How I Will Verify It |
+| # | Acceptance criterion | How I will verify it |
 |---|---|---|
-| 1 | The landing page displays my name, professional title, and a concise professional summary. | Open the homepage and verify that the information is accurate and visible. |
-| 2 | The portfolio includes my education, professional experience, and technical skills without duplicated information. | Review the Resume and Skills sections against `content-notes.md`. |
-| 3 | The Projects section displays ClassTestLinker, SpecMine Abandonment Analysis, AIDev Mining Challenge, and Legal Incident Report Extraction, each with a title and description. | Navigate to Projects and verify all four entries and their descriptions. |
-| 4 | All navigation links work correctly, and the website remains readable and functional on desktop and mobile screens. | Test each navigation link and use browser developer tools to simulate a mobile viewport. |
-| 5 | The published website contains no original template placeholders or private information, and it supports accessible navigation. | Inspect the content, images, keyboard navigation, and browser console for errors. |
+| 1 | The landing page displays my name, professional title, and a concise professional summary. | Inspect homepage content. |
+| 2 | The portfolio includes education, experience, and technical skills without duplication. | Compare to `content-notes.md`. |
+| 3 | All four required projects appear with titles and descriptions. | Inspect Portfolio and filter options. |
+| 4 | Navigation works and layout is responsive. | Test controls and mobile viewports. |
+| 5 | No template placeholders or private information remain, and navigation is accessible. | Inspect rendered content, source, and keyboard interaction. |
 
-## Contact
+## GitHub Pages
 
-If you want to contact me you can reach me at [Twitter](https://www.x.com/codewithsadee_).
+After reviewing and merging the feature branch, use repository **Settings > Pages > Deploy from a branch** and select **master** and **/(root)**. Verify the resulting public URL in a browser.
 
-## License
+## Credits and License
 
-MIT
+Based on [vCard Personal Portfolio by codewithsadee](https://github.com/codewithsadee/vcard-personal-portfolio). Original project license and attribution are preserved; see the repository's `LICENSE` file. This fork's new portfolio content is a customization of that template.
